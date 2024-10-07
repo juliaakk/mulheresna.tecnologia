@@ -1,0 +1,121 @@
+@font-face{ font-family: julia;
+src:url(./WHOAA.ttf)} 
+
+body {
+  
+    margin: 0;
+    padding: 0;
+    background-color: #d7c1fa;
+}
+
+header {
+    background: url( https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQULsBdVBrYBEmQyb3ayNIZ5eRvCSR40Xqlvw&s);
+   
+    -webkit-background-clip: border-box ;
+color: black;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-family: julia;
+    margin: 0;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIiLLNBJE8rwwCChuOKy3fu5JQ0fhhRby3cA&s);
+-webkit-background-clip: text;
+color: transparent;
+font-weight: 900
+;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(218, 213, 231);
+    text-decoration: none;
+}
+
+main {
+    padding: 50px;
+    width: 75%;
+    margin: auto;
+}
+
+h2 {
+    background-color: #211355;
+    font-family: "DM Serif Display", serif;
+    color:  rgb(218, 213, 231);
+    border-radius: 5px;
+}
+h3{background-color: #713db43d;
+border-radius: 10px;}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #220d6b;
+    padding: 10px;
+    text-align: left;
+}
+
+figure {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+img {
+    border-radius: 5px;
+    width: 200px;
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+   
+}
+
+form label {
+    margin-top: 10px;
+   
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #713db4;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #211355;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIiLLNBJE8rwwCChuOKy3fu5JQ0fhhRby3cA&s);
+-webkit-background-clip: border-box;
+color: black;
+    cursor: pointer;
+    border-radius: 20px;  
+}
+
+footer {
+    background: url( https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQULsBdVBrYBEmQyb3ayNIZ5eRvCSR40Xqlvw&s);
+    -webkit-background-clip: border-box ;
+color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 10px;
+}
